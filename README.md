@@ -37,24 +37,40 @@ AvoidsBot is a Telegram bot designed to help users report scams efficiently. The
     ```
 
 3. **Configure your environment variables**:
-    - Rename the `sample.env` file to `.env`:
+    - Edit the `sample.env` file to add your configuration details. You can use a text editor like `nano`:
         ```bash
-        mv sample.env .env
+        nano sample.env
         ```
-    - Edit the `.env` file to add your configuration details. You can use a text editor like `nano`:
-        ```bash
-        nano .env
-        ```
-    - Add the following environment variables to the `.env` file:
+   - Add the following environment variables to the `sample.env` file:
         ```bash
         BOT_TOKEN=<Your Telegram Bot Token>
         MONGO_DB_URI=<Your MongoDB Connection URI>
+        IMAGE_URL=<Your Image URL to be Used in Public Channel>
         ```
-
+   - Rename the `sample.env` file to `.env`:
+        ```bash
+        mv sample.env .env
+        ```
+    
 4. **Run the bot**:
     ```bash
     python bot.py
     ```
+
+### Get Image URL
+
+To customize the image used in reports:
+
+1. **Download the Template Image**:
+    - Download the template image from [this link](https://graph.org/file/65993f8bdb46060f8495a.png).
+
+2. **Edit the Image**:
+    - Use a tool like [polotno](https://studio.polotno.com/) to edit the image with your channel's profile picture or other relevant visuals.
+
+3. **Upload the Edited Image**:
+    - Upload the edited image to [graph.org](https://graph.org) or any other image hosting service and get Image URL.
+
+
 
 ### Usage
 
