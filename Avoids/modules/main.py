@@ -167,7 +167,7 @@ async def handle_callback_query(_, callback_query):
             )
             await app.send_photo(CHANNEL_ID, photo=photo, caption=text, reply_markup=inline_keyboard)
 
-            await app.send_message(user_id, f'Your report has been approved and posted publicly at @ScamRepost.')
+            await app.send_message(user_id, f'Your report has been approved and posted publicly.')
 
             await callback_query.answer("Report approved and posted successfully.", show_alert=True)
 
