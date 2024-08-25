@@ -43,6 +43,8 @@ AvoidsBot is a Telegram bot designed to help users efficiently report scams. It 
         ```
     - Add the following environment variables to the `sample.env` file:
         ```plaintext
+        API_ID=<Obtain `API_ID` from creating an application at https://my.telegram.org/>
+        API_HASH=<Obtain `API_HASH` from creating an application at https://my.telegram.org/>
         BOT_TOKEN=<Your Telegram Bot Token>
         MONGO_DB_URI=<Your MongoDB Connection URI>
         IMAGE_URL=<URL of the image to be used in the public channel>
