@@ -114,7 +114,7 @@ Contributions are welcome! To contribute:
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Contact
 
@@ -122,3 +122,12 @@ If you have concerns about your source code being leaked or need assistance, ple
 
 - **Telegram**: [@Lettable](https://t.me/Lettable)
 - **GitHub**: [Lettable](https://github.com/Lettable)
+
+## Support
+
+If you find this project helpful and would like to support its development, you can buy me a coffee through a Bitcoin donation. Your support is greatly appreciated!
+
+**LTC Address:** `LXzdaQcKxFpRQ4jvqh9CBcRMaViutV6bRN`
+
+Thank you for your generosity!
+
