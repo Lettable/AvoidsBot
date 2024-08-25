@@ -1,0 +1,56 @@
+{
+  "name": "avoidsbot",
+  "description": "A Telegram bot designed to help users report scams efficiently.",
+  "logo": "https://avatars.githubusercontent.com/u/173759393?s=400&u=b9db64e145067b6e8566e2e0c316d4bb05849840&v=4",
+  "keywords": [
+    "telegram",
+    "bot",
+    "scam",
+    "report",
+    "telegram-bot",
+    "pyrogram"
+  ],
+  "env": {
+    "API_ID": {
+      "description": "Your Telegram API ID. Obtain this from https://my.telegram.org",
+      "value": "",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Your Telegram API Hash. Obtain this from https://my.telegram.org",
+      "value": "",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Your Telegram Bot Token. Get this from @BotFather on Telegram",
+      "value": "",
+      "required": true
+    },
+    "MONGO_DB_URI": {
+      "description": "MongoDB Connection URI. Obtain this from MongoDB Atlas or your MongoDB instance",
+      "value": "",
+      "required": true
+    },
+    "IMAGE_URL": {
+      "description": "URL of the image used in reports. Upload to an image hosting service and use the URL",
+      "value": "",
+      "required": true
+    },
+    "AWAIT_ROOM_ID": {
+      "description": "ID of the channel for report approval/rejection",
+      "value": "",
+      "required": true
+    },
+    "CHANNEL_ID": {
+      "description": "ID of the public channel for publishing reports",
+      "value": "",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "stack": "heroku-20"
+}
