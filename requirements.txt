@@ -1,0 +1,4 @@
+pyrogram==2.0
+pymongo==5.0
+python-dotenv==1.0
+requests==2.28
