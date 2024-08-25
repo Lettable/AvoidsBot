@@ -1,8 +1,8 @@
 import asyncio
 import importlib
 from pyrogram import idle
-from avoids import app, LOGGER
-from avoids.modules import ALL_MODULES
+from Avoids import app, LOGGER
+from Avoids.modules import ALL_MODULES
 
 
 async def Avoids():
