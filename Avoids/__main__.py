@@ -5,7 +5,7 @@ from Avoids import app, LOGGER
 from Avoids.modules import ALL_MODULES
 
 
-async def Avoids():
+async def avoids():
     for all_module in ALL_MODULES:
         importlib.import_module(f"Avoids.modules.{all_module}")
     LOGGER.info(f"Successfully loaded {len(ALL_MODULES)}.")
@@ -20,4 +20,4 @@ async def Avoids():
 
 
 if __name__ == "__main__":
-    asyncio.get_event_loop().run_until_complete(Avoids())
+    asyncio.get_event_loop().run_until_complete(avoids())
