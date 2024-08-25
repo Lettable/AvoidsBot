@@ -25,7 +25,7 @@ app = Client(
 
 
 boot = time.time()
-async def Avoids():
+async def avoids():
     try:
         await app.start()
         await asyncio.sleep(2)
@@ -39,4 +39,4 @@ async def Avoids():
         print(e)
         exit()
 
-asyncio.get_event_loop().run_until_complete(Avoids())
+asyncio.get_event_loop().run_until_complete(avoids())
