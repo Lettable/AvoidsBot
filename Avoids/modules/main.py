@@ -12,6 +12,7 @@ users = database['users']
 reports = database['reports']
 
 data = {}
+
 pattern = re.compile(r"^@[a-zA-Z0-9_]+$")
 
 @app.on_message(filters.command('start') & filters.private)
