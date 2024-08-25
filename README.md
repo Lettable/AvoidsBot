@@ -59,7 +59,7 @@ AvoidsBot is a Telegram bot designed to help users efficiently report scams. It 
     bash start
     ```
 
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Lettable/AvoidsBot"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p><a href="https://dashboard.heroku.com/new?template=https://github.com/Lettable/AvoidsBot"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 ### Get Image URL
 
@@ -132,4 +132,3 @@ If you find this project helpful and would like to support its development, you 
 **LTC Address:** `LXzdaQcKxFpRQ4jvqh9CBcRMaViutV6bRN`
 
 Thank you for your generosity!
-
