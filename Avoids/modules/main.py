@@ -3,7 +3,7 @@ import re
 from pymongo import MongoClient
 from pyrogram import filters
 from pyrogram.types import Message, ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMarkup, InlineKeyboardButton
-from promo import app
+from avoids import app
 from config import MONGO_DB_URI, AWAIT_ROOM_ID, CHANNEL_ID, IMAGE_URL
 
 client = MongoClient(MONGO_DB_URI)
