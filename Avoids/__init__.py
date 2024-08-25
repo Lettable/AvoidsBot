@@ -15,7 +15,6 @@ logging.basicConfig(
 logging.getLogger("pyrogram").setLevel(logging.ERROR)
 LOGGER = logging.getLogger(__name__)
 
-
 app = Client(
     "Avoids",
     api_id=API_ID,
