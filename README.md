@@ -56,7 +56,7 @@ AvoidsBot is a Telegram bot designed to help users efficiently report scams. It 
     
 4. **Run the bot**:
     ```bash
-    python bot.py
+    bash start
     ```
 
 ### Get Image URL
