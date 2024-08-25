@@ -1,8 +1,6 @@
 import asyncio
 import importlib
-
 from pyrogram import idle
-
 from promo import app, LOGGER
 from promo.modules import ALL_MODULES
 
