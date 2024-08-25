@@ -36,13 +36,13 @@ AvoidsBot is a Telegram bot designed to help users efficiently report scams. It 
     pip install -r requirements.txt
     ```
 
-3. **Configure your environment variables**:
+3. **Configure environment variables**:
     - Edit the `sample.env` file to add your configuration details. Use a text editor like `nano`:
         ```bash
         nano sample.env
         ```
     - Add the following environment variables to the `sample.env` file:
-        ```bash
+        ```plaintext
         BOT_TOKEN=<Your Telegram Bot Token>
         MONGO_DB_URI=<Your MongoDB Connection URI>
         IMAGE_URL=<URL of the image to be used in the public channel>
@@ -58,7 +58,11 @@ AvoidsBot is a Telegram bot designed to help users efficiently report scams. It 
     ```bash
     bash start
     ```
-    
+
+### Deploy on Heroku
+
+[Click here to deploy on Heroku](https://dashboard.heroku.com/new?template=https://github.com/Lettable/AvoidsBot)
+
 ### Get Image URL
 
 To customize the image used in reports:
@@ -75,15 +79,15 @@ To customize the image used in reports:
 4. **Update the `.env` File**:
     - Replace the placeholder URL in the `IMAGE_URL` variable in your `.env` file with the URL of your uploaded image.
 
-### Usage
+## Usage
 
-#### Commands
+### Commands
 
 - **/start**: Start interacting with the bot and access the main menu.
 - **/lookup <username|user_id>**: Look up scam reports associated with a specific username or user ID.
 - **/cancel**: Cancel the current report creation process.
 
-#### Inline Buttons
+### Inline Buttons
 
 - **Create Report**: Begin the process of creating a new scam report.
 - **Cancel Report**: Cancel the ongoing report creation process.
