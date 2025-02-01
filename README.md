@@ -108,6 +108,48 @@ To customize the image used in reports:
 3. **Public Announcement**:
     - Approved reports are posted in a public channel, including details such as the scammer's display name, username, amount involved, and a summary.
 
+---
+
+### **Patch Notes for Version 2.1**  
+
+#### **Release Date:** February 1, 2025  
+#### **Client:** [@tradexoxx ID: 7116094114](telegram.dog/tradexoxx)  
+#### **Paid Support:** $50  
+
+---
+
+### **What's New?**  
+
+**1. Appeal System Enhancements**  
+- Added comprehensive approval/rejection flow for appeal actions.  
+- Approved appeals now send proper notifications based on whether the post was deleted or edited:
+  - **Deleted:** "Your post has been removed from the channel."  
+  - **Tagged:** "Your post has been tagged with [edit message]."  
+
+**2. Detailed Broadcast Feature**  
+- Enhanced the broadcast command to forward messages to both **user and group chat IDs** instead of just user IDs.  
+- Better error handling for unreachable users/groups during broadcasts.
+
+**3. Welcome Message for Group Additions**  
+- The bot now **welcomes groups upon joining** and provides instructions for proper scam protection setup.  
+- Includes a **direct link to the official channel**.
+
+**4. Scammer Ban Notifications**  
+- Enhanced ban notifications with additional context:  
+  - User details (username, ID)  
+  - Amount involved in the scam  
+  - Ban timestamp  
+  - A **button linking directly to the post** for better moderation visibility.  
+
+**5. Optimized Event Handlers**  
+- Fixed event issues related to detecting bot joins and group invite events.  
+- Improved message handling logic for broadcast and report systems.
+
+---
+
+### **Special Thanks**
+This update was made possible by the requests and funding from [@tradexoxx ID: 7116094114](telegram.dog/tradexoxx). We appreciate the continued support and collaboration! If you want this update get a approval from [@tradexoxx](telegram.dog/tradexoxx)! Thanks for understanding!
+
 ## Contributing
 
 Contributions are welcome! To contribute:
