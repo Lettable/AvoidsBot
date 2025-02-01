@@ -113,7 +113,7 @@ To customize the image used in reports:
 ### **Patch Notes for Version 2.1**  
 
 #### **Release Date:** February 1, 2025  
-#### **Client:** [@tradexoxx ID: 7116094114](telegram.dog/tradexoxx)  
+#### **Client:** [@tradexoxx ID: 7116094114](https://telegram.dog/tradexoxx)  
 #### **Paid Support:** $50  
 
 ---
@@ -148,7 +148,7 @@ To customize the image used in reports:
 ---
 
 ### **Special Thanks**
-This update was made possible by the requests and funding from [@tradexoxx ID: 7116094114](telegram.dog/tradexoxx). We appreciate the continued support and collaboration! If you want this update get a approval from [@tradexoxx](telegram.dog/tradexoxx)! Thanks for understanding!
+This update was made possible by the requests and funding from [@tradexoxx ID: 7116094114](https://telegram.dog/tradexoxx). We appreciate the continued support and collaboration! If you want this update get a approval from [@tradexoxx](https://telegram.dog/tradexoxx)! Thanks for understanding!
 
 ## Contributing
 
